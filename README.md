@@ -12,6 +12,6 @@ Esta rutina facilita y optimiza el seguimiento planeación y solicitud de las sa
  Buscar el proyecto "PalneacionSalidas" y con calidad de editor cree su propio ID de clientes OAuth 2.0
 
 ## Al crear la cuenta de OAuth 2.0 tenga en cuneta asignar la dirección URI de la aplicación.
-descargue y asignele una carpeta al archivo "client secret" y copie la clave de la API, remplace y corra la siguiente linea (la dirección URI aparece en el final de la notificación del error de autentificación)
+descargue y asignele una carpeta al archivo "client secret" y copie la clave de la API, remplace y corra 
 
-
+el código adjunto.
