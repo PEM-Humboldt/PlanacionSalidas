@@ -31,18 +31,16 @@ gm_auth_configure(key="AIzaSyCmwXAvyu3yo35BzFaSkfce9ZEKNQ9fX_k",secret="19901914
 
 setwd("C:/Users/hector.arango/Documents/Humboldt/Fibras/Programación salidas de campo")
 
-#use_secret_file("PROJ-NAME.json")
-#use_secret_file("harangoudea.json")
+#use_secret_file("Clientsecret.json")
 
 gmailr::use_secret_file('client_secret_199019144146-jbb36q8gitghul9sm76v3vs9n6klv360.apps.googleusercontent.com (1).json')
-
-path <- "C:/Users/hector.arango/Documents/Humboldt/Fibras/Programación salidas de campo/PROJ-NAME.json"
 
 path2 <- "C:/Users/hector.arango/Documents/Humboldt/Fibras/Programación salidas de campo/client_secret_199019144146-jbb36q8gitghul9sm76v3vs9n6klv360.apps.googleusercontent.com (1).json"
 gm_auth_configure(key="AIzaSyCmwXAvyu3yo35BzFaSkfce9ZEKNQ9fX_k",secret="client_secret_199019144146-jbb36q8gitghul9sm76v3vs9n6klv360.apps.googleusercontent.com",path = path2)
 
 gm_auth_configure(path=path)
-########## cargar hojas especificas de googe sheet
+
+########## cargar hojas especificas de googe sheet argumento range
 
 #Confirmar Email
 gs4_auth(email="harango@humboldt.org.co")
@@ -222,8 +220,4 @@ https://docs.google.com/spreadsheets/d/1SDeTjCn5iX_M_ixQEtoDvrn4MTNZxSKv4SobtWnD
 }
 
 
-
-
-Solc(Scp,Scdp)
-Cornt(Scp,Scdp,emailfrom)
 
